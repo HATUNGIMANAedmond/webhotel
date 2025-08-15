@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      #defilementbar
+{
+	width: 300px;
+	overflow: auto;
+	border: 2px solid orange;
+}  
+.images
+{
+	display: flex;
+	animation-duration: 20s;
+	animation-name: mesimages;
+	animation-iteration-count:infinite;
+
+}
+@keyframes mesimages{
+	0%{
+		transform: translateX(0);
+	}
+	16%{
+		transform: translateX(-640px);
+	}
+	32%{
+		transform: translateX(-1280px);
+	}
+	48%{
+		transform: translateX(-1920px);
+	}
+	64%{
+		transform: translateX(-2560px);
+	}
+	80%{
+		transform: translateX(-3200px);
+	}
+	96%{
+		transform: translateX(0);
+	}
+
+}
+    </style>
+</head>
+<body>
+    
+
+<div id="defilementbar">
+		<div class="images">
+
+       <img src="Nyabungo picture/a1.JPG" width="200" height="200">
+        <img src="Nyabungo picture/a2.PNG" width="200" height="200">
+        <img src="Nyabungo picture/a3.JPG" width="200" height="200">
+        <img src="Nyabungo picture/a4.JPG" width="200" height="200">
+        <img src="Nyabungo picture/a5.JPG" width="200" height="200">
+        <img src="Nyabungo picture/a6.JPG" width="200" height="200">
+        <img src="Nyabungo picture/a7.JPG"  width="200" height="200">
+        <img src="Nyabungo picture/a8.JPG"  width="200" height="200">
+        <img src="Nyabungo picture/a9.JPG"  width="200" height="200">
+        <img src="Nyabungo picture/a10.JPG" width="200" height="200">
+        <img src="Nyabungo picture/a11.JPG" width="200"height="200">
+        <img src="Nyabungo picture/a12.JPG" width="200" height="200">
+        <img src="Nyabungo picture/a13.JPG" width="200" height="200">
+        <img src="Nyabungo picture/a14.JPG" width="200" height="200">
+        <img src="Nyabungo picture/a15.JPG" width="200" height="200">
+        <img src="Nyabungo picture/a16.JPG" width="200" height="200">
+        <img src="Nyabungo picture/a17.JPG" width="200" height="200">
+        <img src="Nyabungo picture/a18.JPG" width="200" height="200">
+        <img src="Nyabungo picture/a19.JPG" width="200" height="200"> 
+        <img src="Nyabungo picture/a20.JPG" width="200" height="200">
+        <img src="Nyabungo picture/a21.JPG" width="200" height="200">-->
+
+    </div>
+    </div>
+</body>
